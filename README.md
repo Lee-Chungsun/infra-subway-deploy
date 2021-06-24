@@ -64,4 +64,10 @@ npm run dev
 ### 2단계 - 배포하기
 1. TLS가 적용된 URL을 알려주세요
 
-- URL : 
+- URL : https://chungsun.kro.kr/
+
+### 요구 사항 
+ - [ ] Docker에 mysql이미지를 설치
+ - [ ] 웹어플리케이션에서 mysql 설정파일 작성
+ - [ ] 테이블 스키마 분리
+ - [ ] flyway 적용 -> 디폴트 ddl을 적용하고 테이블 엔티티의 히스토리를 관리
